@@ -1,0 +1,28 @@
+{
+  "name": "kytunes",
+  "productName":"KyTunes",
+  "version": "1.0.0",
+  "description": "DEsktop music player",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
+  },
+  "author": "Kochan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.9.1",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "classnames": "^2.2.3",
+    "electron-prebuilt": "^0.36.0",
+    "electron-reload": "^0.2.0",
+    "jquery": "^2.2.3",
+    "react": "^0.14.8",
+    "react-autocomplete": "^1.0.0-rc2",
+    "react-dom": "^0.14.7",
+    "react-sound": "^0.4.0",
+    "soundmanager2": "^2.97.20150601-a"
+  }
+}
