@@ -1,3 +1,9 @@
+
+####DeskTune
+
+
+the app uses react, electron, node, 
+
 # electron-quick-start
 
 **Clone and run for a quick way to see an Electron in action.**
